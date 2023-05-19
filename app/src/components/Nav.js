@@ -13,8 +13,8 @@ function Nav() {
         <Router>
             <div>
                 <div className='nav-links'>
-                    <Link to="#">Home</Link>
-                    <Link to="/sobre">Sobre mí</Link>
+                    <Link to="/#">Home</Link>
+                    <Link to="/#sobre">Sobre mí</Link>
                     <Link to="/servicios">Servicios</Link>
                     <Link to="/proyectos">Proyectos</Link>
                     <Link to="/habilidades">Habilidades</Link>
@@ -23,7 +23,7 @@ function Nav() {
                 </div>
                 <Routes>
                     <Route path='#' />
-                    <Route path='/sobre' Component={Header} />
+                    <Route path='/$sobre' Component={Header} />
                 </Routes>
             </div>
         </Router>

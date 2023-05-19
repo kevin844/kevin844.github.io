@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: #000;
+  background: #171a23;
   color: #fff;
 }
 /* Header responsive*/
@@ -44,4 +44,22 @@
     flex-direction: column;
     color: #fff;
   }
+}
+
+
+/* Body content*/
+
+.body {
+  background: #1a202c;
+  color: #fff;
+  padding: 1rem 2rem;  
+  height: 100vh;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10rem;
 }

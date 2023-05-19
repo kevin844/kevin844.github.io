@@ -2,7 +2,7 @@
 function Header() {
     return (
         <div className="header">
-            <p>Hello world</p>
+            <strong className="logo-letters">KG</strong>
         </div>
     );
 }

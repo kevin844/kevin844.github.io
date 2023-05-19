@@ -7,6 +7,18 @@
   background: #171a23;
   color: #fff;
 }
+
+/* kg header lettrs as logo*/
+
+.logo-letters {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #25d366;
+  text-decoration: none;
+}
+
 /* Header responsive*/
 @media screen and (max-width: 768px) {
   .Header-content {

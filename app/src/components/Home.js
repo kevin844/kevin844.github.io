@@ -3,7 +3,7 @@ function Home() {
         <div className="home-content" id="home">
             <h1>Hi, my name is Kevin Gutierrez</h1>
             <h2><strong>I'm a software developer.</strong></h2>
-            <p>Making the web a better place, one line of code at a time.</p>
+            <p>Building digital solutions for a constantly evolving world.</p>
             
             <a href="https://wa.me/+573108442794" rel="noreferrer" className="wa-btn" target="_blank">Contact me</a>
         </div>

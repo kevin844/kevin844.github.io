@@ -1,3 +1,7 @@
+body {
+  background: #1a202c;
+}
+
 /* Header links*/
 .Header-content {
   display: flex;
@@ -67,6 +71,8 @@
   padding: 1rem 2rem;  
   height: 100vh;
 }
+
+/* Home content component*/
 .home-content {
   display: flex;
   flex-direction: column;
@@ -74,6 +80,8 @@
   align-items: center;
   text-align: center;
   padding-top: 10rem;
+  padding-bottom: 30rem;
+  
 }
 .home-content h1 {
   font-size: 3rem;
@@ -107,4 +115,14 @@
 .wa-btn:hover {
   background: #fff;
   color: #000;
+}
+
+/* About component*/
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+  justify-items: center;
 }

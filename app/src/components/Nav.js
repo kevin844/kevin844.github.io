@@ -14,7 +14,7 @@ function Nav() {
             <div>
                 <div className='nav-links'>
                     <Link to="/#">Home</Link>
-                    <Link to="/#sobre">Sobre mí</Link>
+                    <Link to="/#about">Sobre mí</Link>
                     <Link to="/servicios">Servicios</Link>
                     <Link to="/proyectos">Proyectos</Link>
                     <Link to="/habilidades">Habilidades</Link>

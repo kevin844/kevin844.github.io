@@ -13,3 +13,13 @@ DevSecOps: Owasp ZAP, BurpSuite, nmap...
 
 Agile, scrum.
 */
+
+function Proyectos(){
+    return(
+        <div className='proyectos'>
+            <h1>Proyectos</h1>
+        </div>
+    );
+}
+
+export default Proyectos;

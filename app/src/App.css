@@ -40,28 +40,36 @@ body {
 .nav-links {
   display: flex;
 }
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    padding: 1rem;
-    margin: 0 0.25rem;
-    transition: all 0.3s linear;
-    font-size: 1.2rem;
-}
-/* Nav links hover*/
-.nav-links a:hover {
-  background: #fff;
-  color: #000;
-}
-/* Nav links responsive*/
-@media screen and (max-width: 768px) {
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-  }
+
+.nav-links button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
 }
 
+.nav-links button:hover {
+  color: #25d366;
+}
+
+/* responsive nav links*/
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .nav-links button {
+    margin: 0.5rem 0;
+  }
+}
 
 /* Body content*/
 
@@ -80,8 +88,6 @@ body {
   align-items: center;
   text-align: center;
   padding-top: 10rem;
-  padding-bottom: 30rem;
-  
 }
 .home-content h1 {
   font-size: 3rem;
@@ -141,6 +147,25 @@ body {
 }
 
 .about-content p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* footer component*/
+footer {
+  background: #171a23;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #25d366;
+}
+
+footer p {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }

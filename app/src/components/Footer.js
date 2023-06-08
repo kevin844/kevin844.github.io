@@ -6,7 +6,6 @@ function Footer() {
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <a href="https://www.pexels.com">Photos provided by Pexels</a>
         </footer>
     )
 }

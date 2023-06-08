@@ -24,18 +24,18 @@ function App() {
         </div>
         <div className='nav-links'>
           <button className='btn' onClick={() => handleShow("home")}>Home</button>
-          <button className='btn' onClick={() => handleShow("sobre")}>Sobre</button>
-          <button className='btn' onClick={() => handleShow("servicios")}>servicios</button>
-          <button className='btn' onClick={() => handleShow("proyectos")}>proyectos</button>
-          <button className='btn' onClick={() => handleShow("habilidades")}>habilidades</button>
-          <button className='btn' onClick={() => handleShow("blog")}>blog</button>
-          <button className='btn' onClick={() => handleShow("contacto")}>contacto</button>
+          <button className='btn' onClick={() => handleShow("sobre")}>About</button>
+          <button className='btn' onClick={() => handleShow("experiencia")}>Experiene</button>
+          <button className='btn' onClick={() => handleShow("proyectos")}>Projects</button>
+          <button className='btn' onClick={() => handleShow("habilidades")}>Skills</button>
+          <a href="https://kevin8440.github.io/blog/" target="_blank" rel="noopener noreferrer" className='btn'>Blog</a>
+          <button className='btn' onClick={() => handleShow("contacto")}>Contact</button>
         </div>
       </div>
       <div className='body'>
         {show === "home" && <Home />}
         {show === "sobre" && <About />}
-        {show === "servicios" && <Experiencia />}
+        {show === "experiencia" && <Experiencia />}
         {show === "proyectos" && <Proyectos />}
         {show === "habilidades" && <Proyectos />}
         {show === "contacto" && <Contacto />}

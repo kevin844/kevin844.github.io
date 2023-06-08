@@ -1,10 +1,15 @@
-function About(){
+function About() {
     return (
         <div id="about" className="about-content">
             <h2>About Me</h2>
-            <p>My name is Kevin Gutierrez, I am a software developer, I am 20 years old, I am from Colombia.
+            <p>
+                Hello! I am a fullstack developer passionate about technology and creating innovative solutions. With experience in developing web and mobile applications, I have worked on challenging and exciting projects that have allowed me to improve my skills and knowledge.
                 <br />
-            As a software developer, I have skills in various programming languages like Python and PHP, as well as popular frameworks like Flask, Django, and Laravel. In addition, I have experience designing and managing databases such as MySQL and PostgreSQL, and front-end development using HTML, CSS, JavaScript, and Bootstrap, as well as using frameworks such as React and React Native. I also have experience in version control using Git and GitHub, and in testing using tools like pytest, PHPUnit unittest, and Behat. Additionally, I have skills in continuous integration and continuous delivery using Jenkins, Docker, and AWS, and building infrastructure as code using Ansible and Chef. I also have knowledge in DevSecOps using tools like Owasp ZAP, BurpSuite and nmap, and in agile methodologies like Scrum. In summary, I have a wide range of skills and knowledge that allow me to develop high-quality and efficient software solutions.
+                <br />
+                My main focus is building scalable and efficient applications using the latest technologies and tools. I love working as a team and collaborating with other developers to achieve the best results. In addition, I like to learn new things and keep up to date with technological trends and advances.
+                <br />
+                <br />
+                I am always looking for new challenges and opportunities to apply my skills and knowledge. If you are looking for a reliable and committed fullstack developer, feel free to contact me. I am sure that we can work together to create innovative and successful solutions.
             </p>
         </div>
     )

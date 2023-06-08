@@ -11,6 +11,7 @@ function About() {
                 <br />
                 I am always looking for new challenges and opportunities to apply my skills and knowledge. If you are looking for a reliable and committed fullstack developer, feel free to contact me. I am sure that we can work together to create innovative and successful solutions.
             </p>
+            <hr />
         </div>
     )
 }

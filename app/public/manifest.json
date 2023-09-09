@@ -1,25 +1,28 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
+    "short_name": "Portfolio",
+    "name": "Services Portfolio",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "description": "Welcome to my web development services portfolio. I am a frontend and backend developer with skills in HTML5, CSS3, JavaScript, React, Python, Django, PHP, Laravel, and more. I offer customized web development services and technological solutions for businesses and entrepreneurs. Need a modern and attractive website? A scalable and secure web application? You've come to the right place! Explore my portfolio and discover how I can help you achieve your digital goals.",
+    "categories": ["business", "technology"],
+    "keywords": ["web development", "frontend", "backend", "HTML5", "CSS3", "JavaScript", "React", "Python", "Django", "PHP", "Laravel", "web applications", "technological solutions", "websites", "scalable applications", "web security"]
+  }

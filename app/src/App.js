@@ -40,9 +40,10 @@ function App() {
         {show === "habilidades" && <Proyectos />}
         {show === "contacto" && <Contacto />}
       </div>
-      <Footer />
+      
     </div>
   );
 }
 
+//<Footer />
 export default App;

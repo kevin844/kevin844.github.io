@@ -7,8 +7,8 @@ function Experiencia() {
             <div className="experience-content">
                 <img src="https://picsum.photos/200" alt="imagen" />
                 <div className="experience-description">
-                    <strong className="date">22 Nov 2022 - 30 Jun 2023</strong>
-                    <h3>Empresa</h3>
+                    <strong className="date">22 Nov 2022 - 30 Dec 2023</strong>
+                    <h3>SISCOHUILA - Sistemas Computarizados del Huila</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
                 </div>
 
